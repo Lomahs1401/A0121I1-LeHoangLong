@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title> Form đăng ký </title>
+    <style>
+        body {
+            background: khaki;
+        }
+        .blue {
+            color: blue;
+            padding-right: 75px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table style="background: greenyellow">
+            <tr>
+                <th colspan="2" style="color: blue; background: aquamarine">ĐĂNG KÝ HỌC VIÊN</th>
+            </tr>
+            <tr>
+                <td class="blue">Họ và tên</td>
+                <td> <input type="text" style="border-style: inset; width: 200px"></td>
+            </tr>
+            <tr>
+                <td class="blue"> Ngày sinh </td>
+                <td> <input type="text" style="border-style: inset; width: 100px"></td>
+            </tr>
+            <tr>
+                <td class="blue">Giới tính</td>
+                <td>
+                    <label>
+                        <input type="radio" name="Gender"> Nam
+                        <input type="radio" name="Gender"> Nữ
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="blue">Địa chỉ</td>
+                <td> <textarea cols="25" rows="8" style="border-style: inset" ></textarea></td>
+            </tr>
+            <tr>
+                <td class="blue"> Lớp </td>
+                <td>
+                    <select style="border-style: inset">
+                        <option value="lớp"> --Chọn lớp--</option>
+                        <option value="lớp"> Nhật 1 K20A </option>
+                        <option value="lớp"> Nhật 2 K20B </option>
+                        <option value="lớp"> Nhật 3 K20C </option>
+                        <option value="lớp"> Nhật 4 K20D </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="blue"> Email </td>
+                <td> <input type="text" style="border-style: inset; size: 80px" ></td>
+            </tr>
+            <tr>
+                <td class="blue"> Điện thoại </td>
+                <td> <input type="number" style="border-style: inset; size: 80px"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký" style="border-style: inset">
+                    <input type="reset" value="Nhập lại" style="border-style: inset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
