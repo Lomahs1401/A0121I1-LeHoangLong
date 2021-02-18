@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <form>
+        <table style="margin: auto">
+            <tr>
+                <th colspan="4"><h2>Calculator</h2></th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="firstNumber">
+                </td>
+                <td colspan="2">
+                    <input type="text" id="secondNumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="choice" value="Addition(+)" onclick="addition()">
+                </td>
+                <td>
+                    <input type="submit" class="choice" value="Subtraction(-)" onclick="subtraction()">
+                </td>
+                <td>
+                    <input type="submit" class="choice" value="Multiplication(x)" onclick="multiplication()">
+                </td>
+                <td>
+                    <input type="submit" class="choice" value="Division(/)" onclick="division()">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p style="color: blue" id="ketQua"></p>
+    <script src="simpleCalculator.js"></script>
+</body>
+</html>

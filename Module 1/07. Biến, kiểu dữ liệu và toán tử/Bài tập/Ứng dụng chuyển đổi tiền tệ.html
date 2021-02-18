@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency</title>
+</head>
+<body>
+    <form >
+        <table style="text-align: center; padding: 5px; margin: auto" cellspacing="10">
+            <tr>
+                <th style="padding-left: 20px; text-align: center;"><b> Amount </b></th>;
+                <th><b> From Currency </b></th>
+                <th><b> To Currency </b></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Amount" id="amount" placeholder="1" style="width: 150px">
+                </td>
+                <td>
+                    <select id="from" name="Currency" style="width: 150px">
+                        <option value="VNĐ">VNĐ</option>
+                        <option value="Dollar">USD</option>
+                        <option value="Nhân dân tệ">Nhân dân tệ</option>
+                        <option value="Yên">Yên</option>
+                        <option value="Won">Won</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Currency" id="to" style="width: 150px">
+                        <option value="Dollar">USD</option>
+                        <option value="VNĐ">VNĐ</option>
+                        <option value="Nhân dân tệ">Nhân dân tệ</option>
+                        <option value="Yên">Yên</option>
+                        <option value="Won">Won</option>
+                    </select>
+                </td>
+                <td><input type="submit" value="Convert" style="color: white; background: purple; width: 100px;" onclick="clickFunction()"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="Currency.js"></script>
+</body>
+</html>

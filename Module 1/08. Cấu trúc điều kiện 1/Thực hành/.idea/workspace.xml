@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="918caf89-84ae-4a8d-9209-20f63ec31984" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-1-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-2-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-3-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-4-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Hiển-thị-đầu-ra-bài-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Nhúng-mã-javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Sự-kiên-onchange-cách-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Sự-kiện-onchane-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Sự-kiện-onclick-cách-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Sự-kiện-onmouse-cách-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Sự-kiện-onmouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06. Tổng quan Javascript/Thực hành/Thông-báo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Biến, kiểu dữ liệu và toán tử bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Biến, kiểu dữ liệu và toán tử bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Biến, kiểu dữ liệu và toán tử bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Biến, kiểu dữ liệu và toán tử bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Chu vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Currency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Diện tích.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Temperature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/simpleCalculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/điểm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/Ứng dụng máy tính.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Thực hành/Area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Thực hành/Khai báo và sử dụng biến bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Thực hành/Khai báo và sử dụng biến bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Thực hành/Khai báo và sử dụng biến bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Thực hành/Sử dụng toán tử.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1oeEjhhBIt1lWh87B6KFsqUQM66" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07. Biến, kiểu dữ liệu và toán tử/Bài tập/simpleCalculator.js" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="918caf89-84ae-4a8d-9209-20f63ec31984" name="Default Changelist" comment="" />
+      <created>1613638792663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613638792663</updated>
+      <workItem from="1613638793994" duration="3880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1026" y="189" key="FileChooserDialogImpl" timestamp="1613642638571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1026" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1613642638571" />
+  </component>
+</project>
