@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 4</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        let a = parseFloat(prompt('Nhập chiều dài: '));
+        let b = parseFloat(prompt('Nhập chiều rộng: '));
+        let square = '';
+        if (a < 0 || b < 0)
+            alert('Cạnh phải là một số dương');
+        if (a >= 0 && b >= 0) {
+            square = a * b;
+            document.getElementById('result').innerText = 'Diện tích hình chữ nhật = ' + square;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 5</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        let a = parseFloat(prompt('Nhập cạnh a: '));
+        let b = parseFloat(prompt('Nhập cạnh b: '));
+        let square = '';
+        if (a < 0 || b < 0)
+            alert ('Cạnh phải là một số dương');
+        if (a >= 0 && b >= 0) {
+            square = 1/2 * a * b;
+            document.getElementById('result').innerText = 'Diện tích tam giác vuông = ' + square;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 9</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        var a = parseFloat(prompt('Nhập cạnh a: '));
+        var b = parseFloat(prompt('Nhập cạnh b: '));
+        var c = parseFloat(prompt('Nhập cạnh c: '));
+        if (a <= 0 || b <= 0 || c <= 0)
+            document.getElementById('result').innerText = "Cạnh phải là một số lớn hơn 0!";
+        if (isNaN(a) || isNaN(b) || isNaN(c))
+            document.getElementById('result').innerText = "Cạnh phải là một số!";
+        if (a > 0 && b > 0 && c > 0) {
+            if ((a + b) > c)
+                document.getElementById('result').innerText = "a, b, c là 3 cạnh của một tam giác!";
+            else if ((a + b) <= c) {
+               if ((b + c) > a)
+                    document.getElementById('result').innerText = "a, b, c là 3 cạnh của một tam giác!";
+               else if ((b + c) <= a) {
+                    if ((a + c) > b)
+                        document.getElementById('result').innerText = "a, b, c là 3 cạnh của một tam giác!";
+                    else document.getElementById('result').innerText = "a, b, c KHÔNG PHẢI là 3 cạnh của một tam giác!";
+                    }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 8</title>
+</head>
+<body>
+    <h2>Nhập tuổi của bạn vào ô dưới đây!（お願いします）</h2>
+    <label>
+    <input type="text" id="value">
+    <input type="submit" value="Click me" onclick="integerFunction()">
+    </label>
+    <p id="result" style="color: blue"></p>
+    <script>
+        function integerFunction() {
+            var age = parseInt(document.getElementById('value').value);
+            if (isNaN(age))
+                document.getElementById('result').innerText = "Tuổi phải là một số nguyên!";
+            else {
+                if(Number.isInteger(age)) {
+                    if (age > 0 && age < 120)
+                        document.getElementById('result').innerText = "Tuổi hợp lệ";
+                    else if (age <= 0)
+                        document.getElementById('result').innerText = "Tuổi phải là một số dương lớn hơn 0!";
+                    else if (age >= 120)
+                        document.getElementById('result').innerText = "Tuổi không hợp lệ do quá lớn!";
+                }
+                else document.getElementById('result').innerText = "Tuổi phải là một số nguyên!";
+            }
+        }
+    </script>
+</body>
+</html>

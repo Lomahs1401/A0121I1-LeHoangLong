@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 7</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        let a = parseFloat(prompt("Nhập a: "));
+        let b = parseFloat(prompt("Nhập b: "));
+        let c = parseFloat(prompt("Nhập c: "));
+        let delta = Math.pow(b, 2) - 4*a*c;
+        let x1 = '';
+        let x2 = '';
+        if (delta > 0) {
+            x1 = (-b-Math.sqrt(delta))/2*a;
+            x2 = (-b+Math.sqrt(delta))/2*a;
+            document.getElementById('result').innerText = "Phương trình có 2 nghiệm x1 = " + x1 + ", x2 = " + x2;
+        }
+        else if (delta === 0) {
+            x1 = x2 = -b / 2*a;
+            document.getElementById('result').innerText = "Phương trình có nghiệm kép x = " + x1;
+        }
+        else document.getElementById('result').innerText = "Phương trình vô nghiệm";
+    </script>
+</body>
+</html>

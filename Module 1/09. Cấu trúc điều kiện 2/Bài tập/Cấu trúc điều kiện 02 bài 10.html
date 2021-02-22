@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 10</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        let hour = parseFloat(prompt("Nhập số giờ đã tiêu thụ điện: "));
+        let choice = parseInt(prompt("Nhập bậc điện bạn sử dụng: ")); // Có 6 bậc
+        let price = '';
+        if (hour >= 0) {
+            switch (choice) {
+                case 1:
+                    price = hour * 1549;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                case 2:
+                    price = hour * 1600;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                case 3:
+                    price = hour * 1858;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                case 4:
+                    price = hour * 2340;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                case 5:
+                    price = hour * 2615;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                case 6:
+                    price = hour * 2701;
+                    document.getElementById('result').innerText = "Tiền điện = " + price + "VNĐ";
+                    break;
+                default:
+                    document.getElementById('result').innerText = "Bậc nhập không hợp lệ";
+            }
+        } else document.getElementById('result').innerText = "Giờ tiêu thụ là một số dương!";
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 bài 7</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        .col1 {
+            color: darkgreen;
+        }
+        .col2 {
+            color: purple;
+        }
+        .col3 {
+            color: dodgerblue;
+        }
+        .col4 {
+            color: chartreuse;
+        }
+        .col5 {
+            color: gold;
+        }
+        .col6 {
+            color: orangered;
+        }
+        .col7 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table style="border-collapse: collapse; margin-top: 100px; margin-left: 120px; text-align: center; background: white; " border="1">
+        <tr>
+            <td class="col1">GÓI CƯỚC</td>
+            <td class="col2">NET1</td>
+            <td class="col3">NET2</td>
+            <td class="col4">NET3</td>
+            <td class="col5">NET4</td>
+            <td class="col6">NET5</td>
+            <td class="col7">NET6</td>
+        </tr>
+        <tr>
+            <td class="col1">BĂNG THÔNG</td>
+            <td class="col2">15Mbps</td>
+            <td class="col3">20Mbps</td>
+            <td class="col4">25Mbps</td>
+            <td class="col5">30Mbps</td>
+            <td class="col6">35Mbps</td>
+            <td class="col7">40Mbps</td>
+        </tr>
+        <tr>
+            <td class="col1">CƯỚC THÁNG</td>
+            <td class="col2">185.000</td>
+            <td class="col3">200.000</td>
+            <td class="col4">220.000</td>
+            <td class="col5">240.000</td>
+            <td class="col6">270.000</td>
+            <td class="col7">350.000</td>
+        </tr>
+        <tr>
+            <td class="col1">6 THÁNG</td>
+            <td class="col2">1.110.000</td>
+            <td class="col3">1.200.000</td>
+            <td class="col4">1.320.000</td>
+            <td class="col5">1.440.000</td>
+            <td class="col6">1.620.000</td>
+            <td class="col7">2.100.000</td>
+        </tr>
+        <tr>
+            <td class="col1">12 THÁNG</td>
+            <td class="col2">2.220.000</td>
+            <td class="col3">2.400.000</td>
+            <td class="col4">2.640.000</td>
+            <td class="col5">2.880.000</td>
+            <td class="col6">3.240.000</td>
+            <td class="col7">4.200.000</td>
+        </tr>
+        <tr>
+            <td class="col1">18 THÁNG</td>
+            <td class="col2">3.330.000</td>
+            <td class="col3">3.600.000</td>
+            <td class="col4">3.960.000</td>
+            <td class="col5">4.320.000</td>
+            <td class="col6">4.860.000</td>
+            <td class="col7">6.300.000</td>
+        </tr>
+    </table>
+    <p id="result" style="color: black; font: bolder; padding-left: 200px"></p>
+    <script>
+        let money = parseFloat(prompt('Nhập số tiền bạn muốn đăng ký gói cước:'));
+        if (money === 185000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET1 thành công!";
+        else if (money === 200000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET2 thành công!";
+        else if (money === 220000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET3 thành công!";
+        else if (money === 240000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET4 thành công!";
+        else if (money === 270000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET5 thành công!";
+        else if (money === 350000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước tháng NET6 thành công!";
+        else if (money === 1250000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET1 thành công!";
+        else if (money === 1200000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET2 thành công!";
+        else if (money === 1320000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET3 thành công!";
+        else if (money === 1440000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET4 thành công!";
+        else if (money === 1620000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET5 thành công!";
+        else if (money === 2100000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 6 tháng NET6 thành công!";
+        else if (money === 2220000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET1 thành công!";
+        else if (money === 2400000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET2 thành công!";
+        else if (money === 2640000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET3 thành công!";
+        else if (money === 2880000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET4 thành công!";
+        else if (money === 3240000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET5 thành công!";
+        else if (money === 4200000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 12 tháng NET6 thành công!";
+        else if (money === 3330000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET1 thành công!";
+        else if (money === 3600000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET2 thành công!";
+        else if (money === 3960000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET3 thành công!";
+        else if (money === 4320000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET4 thành công!";
+        else if (money === 4860000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET5 thành công!";
+        else if (money === 6300000)
+            document.getElementById('result').innerText = "Bạn đã đăng ký gói cước 18 tháng NET6 thành công!";
+    </script>
+</body>
+</html>

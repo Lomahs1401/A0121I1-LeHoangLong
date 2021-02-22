@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 2</title>
+</head>
+<body>
+    <p id="result" style="color: blue"></p>
+    <script>
+        let m = parseFloat(prompt('Nhập mét: '));
+        let ft = '';
+        if (m < 0)
+            alert("Đơn vị mét không hợp lệ!");
+        else if (m === 0)
+            document.getElementById('result').innerText = "feet = " + 0;
+        else
+            ft = m * 3.2808;
+            document.getElementById('result').innerText = "feet = " + ft;
+    </script>
+</body>
+</html>

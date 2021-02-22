@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 3</title>
+</head>
+<body>
+<p id="result" style="color: blue"></p>
+<script>
+    let height = parseFloat(prompt('Nhập cạnh hình vuông: '));
+    let square = '';
+    if (height < 0)
+        alert('Chiều dài cạnh phải là một số dương');
+    else if (height === 0)
+        document.getElementById('result').innerText = "Diện tích = 0";
+    else {
+        square = height * 4;
+        document.getElementById('result').innerText = "Diện tích = " + square + ;
+    }
+</script>
+</body>
+</html>

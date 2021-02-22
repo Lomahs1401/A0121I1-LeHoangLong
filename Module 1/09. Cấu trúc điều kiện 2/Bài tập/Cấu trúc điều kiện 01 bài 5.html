@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 bài 5</title>
+</head>
+<body>
+    <p style="color: blue; font-family: sans-serif" id="result"></p>
+    <script>
+        let grade = parseFloat(prompt('Nhập điểm của bạn theo thang 10:  '));
+        if (grade < 0 && grade > 10)
+            alert("Điểm nhập không hợp lệ!");
+        if (grade >= 8.5 && grade <= 10)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 4.0";
+        else if (grade >= 8.0 && grade < 8.5)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 3.5";
+        else if (grade >= 7.0 && grade < 8)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 3.0";
+        else if (grade >= 6.5 && grade < 7)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 2.5";
+        else if (grade >= 5.5 && grade < 6.5)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 2.0";
+        else if (grade >= 5.0 && grade < 5.5)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 1.5";
+        else if (grade >= 4.0 && grade < 5.0)
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 1.0";
+        else
+            document.getElementById('result').innerText = "Điểm theo thang 4 của bạn là 0.0";
+
+    </script>
+</body>
+</html>
