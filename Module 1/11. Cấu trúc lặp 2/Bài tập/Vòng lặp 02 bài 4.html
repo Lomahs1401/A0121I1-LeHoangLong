@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 4</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let text = '';
+        let chieuDai = parseInt(prompt('Nhập chiều dài của hình chữ nhật: '));
+        let chieuRong = parseInt(prompt('Nhập chiều rộng của hình chữ nhật: '));
+        let i, j;
+        for (i = 1; i <= chieuRong; i++) {
+            for (j = 1; j <= chieuDai; j++) {
+                if (i === 1 || j === 1 || i === chieuRong || j === chieuDai) {
+                    text += '*';
+                } else text += ' ';
+            } text += '</br>';
+        } document.getElementById('demo').innerHTML = text;
+    </script>
+</body>
+</html>

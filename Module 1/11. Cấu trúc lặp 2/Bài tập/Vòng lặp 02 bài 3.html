@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 3</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <hr/>
+    <p id="demo2"></p>
+    <hr/>
+    <p id="demo3"></p>
+    <hr/>
+    <p id="demo4"></p>
+    <script>
+        let text1 = '';
+        let text2 = '';
+        let text3 = '';
+        let text4 = '';
+        let i, j;
+        let k = 1;
+        let number = parseInt(prompt('Nhập số cạnh tam giác: '));
+        for (i = 1; i <= number; i++) {
+            for (j = 1; j <= i; j++) {
+                text1 += "*";
+            } text1 += "</br>";
+        } document.getElementById('demo1').innerHTML = text1;
+        for (i = number; i >= 1; i--) {
+            for (j = 1; j <= i; j++) {
+                text2 += '*';
+            } text2 += "</br>";
+        } document.getElementById('demo2').innerHTML = text2;
+        for (i = 1; i <= number; i++) {
+            for (j = 1; j <= i; j++) {
+                text3 += "*"
+            } text3 += "</br>";
+        } document.getElementById('demo3').innerHTML = text3;
+        for (i = number; i >= 1; i--) {
+            for (j = 1; j <= i; j++) {
+                text4 += '*';
+            } text4 += "</br>";
+        } document.getElementById('demo4').innerHTML = text4;
+    </script>
+</body>
+</html>

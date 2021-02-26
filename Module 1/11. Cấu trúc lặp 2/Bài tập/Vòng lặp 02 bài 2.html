@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 bài 2</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let g = 1;
+        let number = parseInt(prompt('Mời bạn nhập 1 số nguyên: '));
+        for (let i = 1; i <= number; i++) {
+            g *= i;
+        }
+        document.getElementById('demo').innerText = "Giai thừa của " + number + "! là: " + g;
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vòng lặp 01 bài 1</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var number = parseInt(prompt('Nhập 1 số từ 0 đến 100: '));
+        var text = '';
+        if (isNaN(number)) {
+            alert('Số nhập không hợp lệ! Mời bạn nhập lại');
+            number = parseInt(prompt('Nhập lại 1 số: '));
+        }
+        for (var i = number; i <= 100; i++) {
+            if (i === 99) {
+                alert("Đã hoàn thành đếm đến số 99!");
+                break;
+            }
+        }
+        document.getElementById('demo').innerText = i;22
+    </script>
+</body>
+</html>

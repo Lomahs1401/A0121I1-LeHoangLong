@@ -21,10 +21,21 @@
     <label for="3"></label>
 </div>
 <script>
+    var check1, check2, check3;
     function input1() {
-        let check1 = document.getElementById('1').value;
-        
+        let check1 = document.getElementById('1').checked;
+        console.log(check1);
     }
+    function input2() {
+        let check2 = document.getElementById('2').checked;
+        console.log(check2);
+    }
+    function input3() {
+        let check3 = document.getElementById('3').checked;
+        console.log(check3);
+    }
+    if (check1 === true && check2 === true)
+        document.getElementById('3').
 </script>
 </body>
 </html>

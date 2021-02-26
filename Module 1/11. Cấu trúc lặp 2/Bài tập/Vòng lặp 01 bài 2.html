@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vòng lặp 01 bài 2</title>
+</head>
+<body>
+    <script>
+        let temperature = parseFloat(prompt("Mời bạn nhập nhiệt độ C: "));
+        if (isNaN(temperature)) {
+            alert("Nhiệt độ không hợp lệ! Mời bạn nhập lại");
+            temperature = parseFloat(prompt('Mời bạn nhập lại nhiệt độ: '));
+        }
+        if (temperature > 100) {
+            alert('Xin bạn hãy giảm nhiệt độ');
+            temperature = parseFloat(prompt("Mời bạn nhập nhiệt độ: "));
+        }
+        if (temperature < 20) {
+            alert('Xin bạn hãy tăng nhiệt độ');
+            temperature = parseFloat(prompt('Mời bạn nhập nhiệt độ: '));
+        }
+        if (temperature >= 20 && temperature <= 100)
+            alert("OK!");
+    </script>
+</body>
+</html>

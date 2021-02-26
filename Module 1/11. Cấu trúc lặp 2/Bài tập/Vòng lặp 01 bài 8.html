@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 bài 8</title>
+</head>
+<body>
+    <table style="margin: auto">
+        <tr>
+            <td>
+                <p style="color: blue">ゲームをしましょうか</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="chơi" style="background: aqua" onclick="game()">
+            </td>
+        </tr>
+    </table>
+    <script>
+      function game() {
+            let guess1 = parseInt(prompt('Bạn muốn đoán 1 số trong khoảng từ: '));
+            console.log('Bạn đoán từ: ' + guess1);
+            let guess2 = parseInt(prompt('Bạn muốn đoán 1 số trong khoảng đến: '));
+            console.log('Bạn đoán đến: ' + guess2);
+            let ngauNhien = guess1 + Math.round(Math.random() * (guess2 - guess1));
+            console.log('Số ngẫu nhiên: ' + ngauNhien);
+            let doan =  parseInt(prompt('Mời bạn đoán 1 số : '));
+            let choice = 1;
+            for (choice; choice <= 3; choice++) {
+                if (Number(doan) === ngauNhien) {
+                    console.log('Số bạn đoán là: ' + doan);
+                    alert('Xin chúc mừng! Bạn đã đoán đúng ^^');
+                    break;
+                } else {
+                    console.log('Số bạn đoán là: ' + doan);
+                    alert('Bạn đoán sai mất rồi T_T... Hãy đoán lại thử xem');
+                    doan = parseInt(prompt('Mời bạn đoán lại: '));
+                }
+            } alert('Cảm ơn bạn đã tham gia trò chơi <3');
+      }
+    </script>
+</body>
+</html>
