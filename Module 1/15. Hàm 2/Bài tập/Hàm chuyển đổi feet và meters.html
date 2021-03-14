@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feet & Meters</title>
+</head>
+<body>
+    <script>
+        function feetToMeter(feet) {
+            meter = 0.305 * feet;
+            return meter;
+        }
+        function meterToFeet(meter) {
+            feet = 3.279 * meter;
+            return feet;
+        }
+        feet = feetToMeter(parseInt(prompt('Nhập đơn vị feet: ')));
+        alert("Meter = " + feet);
+        meter = meterToFeet(parseInt(prompt('Nhập đơn vị meter: ')));
+        alert("Feet = " + meter);
+    </script>
+</body>
+</html>

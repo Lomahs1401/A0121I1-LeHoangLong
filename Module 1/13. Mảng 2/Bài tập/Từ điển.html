@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+    <label>
+        <input type="text" id="from">
+        <input type="button" value="Convert" id="convert" style="background: purple; color: white" onclick="convertFunction()">
+    </label>
+    <script>
+        var arr1 = ["Hospital", "Cinema", "Dream", "Hope"];
+        var arr2 = ["病院", "映画館", "夢", "希望"];
+        var arr3 = ["Bệnh viện", "Rạp phim", "Giấc mơ", "Hi vọng"];
+        var flag = false;
+        function convertFunction() {
+            var a = document.getElementById('from').value;
+            for (var i = 0; i < arr1.length; i++) {
+                if (a === arr1[i]　|| a === arr2[i]) {
+                    alert(arr3[i]);
+                    flag = true;
+                }
+            } if (flag === false) {
+                alert('Không tìm thấy!');
+            }
+        }
+    </script>
+</body>
+</html>
