@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a33b2c6-a096-4087-a13f-91f5eb095777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../12. Mảng 1/Thực hành/Tìm giá trị trong mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12. Mảng 1/Thực hành/Tìm maxValue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12. Mảng 1/Thực hành/arrayElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12. Mảng 1/Thực hành/caroSimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12. Mảng 1/Thực hành/reverseArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. Mảng 2/Bài tập/Luyện tập mảng 01 bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. Mảng 2/Bài tập/Sử dụng các hàm có sẵn của mảng bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. Mảng 2/Bài tập/Sử dụng các hàm có sẵn của mảng bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. Mảng 2/Bài tập/Sử dụng các hàm có sẵn của mảng bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13. Mảng 2/Bài tập/Từ điển.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/Chuyển đổi nhiệt độ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/Tìm giá trị nhỏ nhất của mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14. Hàm 1/Thực hành/Tạo và gọi hàm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Hàm chuyển đổi feet và meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Luyện tập 01 bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Luyện tập 01 bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Luyện tập 01 bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Luyện tập 01 bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài tập/Luyện tập 01 bài 5.html" afterDir="false" />
-    </list>
+    <list default="true" id="2a33b2c6-a096-4087-a13f-91f5eb095777" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Hoang Long/Module1" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,10 +41,17 @@
       <option name="presentableId" value="Default" />
       <updated>1615690334950</updated>
       <workItem from="1615690336158" duration="1965000" />
+      <workItem from="1616291210869" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="980" y="186" key="FileChooserDialogImpl" timestamp="1616291234076">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="980" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1616291234076" />
   </component>
 </project>

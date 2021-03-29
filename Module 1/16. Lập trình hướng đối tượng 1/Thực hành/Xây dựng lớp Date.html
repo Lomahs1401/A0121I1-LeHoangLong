@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date</title>
+</head>
+<body>
+    <script>
+        let MyDate = function(day, month, year) {
+            this.day = day;
+            this.month = month;
+            this.year = year;
+            this.getDay = function() {
+                return this.day;
+            };
+            this.getMonth = function() {
+                return this.month;
+            };
+            this.getYear = function() {
+                return this.year;
+            };
+            this.setDay = function (day) {
+                this.day = day;
+            };
+            this.setMonth = function (month) {
+                this.month = month;
+            };
+            this.setYear = function (year) {
+                this.year = year;
+            };
+        };
+        let date = new MyDate(29, 3, 2021);
+        let day = date.getDay();
+        alert(day);
+        let month = date.getMonth();
+        alert(month);
+        let year = date.getYear();
+        alert(year);
+        alert(day + "/" + month + "/" + year);
+        date.setDay(1);
+        date.setMonth(1);
+        date.setYear(2021);
+        // alert(day);
+        // alert(month);
+        // alert(year);
+        alert(day + "/" + month + "/" + year);
+    </script>
+</body>
+</html>
