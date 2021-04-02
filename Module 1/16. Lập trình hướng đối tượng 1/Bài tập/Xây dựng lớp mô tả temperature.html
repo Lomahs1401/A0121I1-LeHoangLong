@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temperature</title>
+</head>
+<body>
+    <script>
+        let Temperature = function (celsius) {
+            this.temperature = celsius;
+            this.getFahrenheit = function() {
+                return (9 * celsius) / 5 + 32;
+            };
+            this.getKelvin = function () {
+                return celsius + 273;
+            };
+        };
+        let tempe = new Temperature(25);
+        alert("Nhiệt độ hiện tại: " + tempe.temperature + "C");
+        alert("Chuyển sang độ F: " + tempe.getFahrenheit() + "F");
+        alert("Chuyển sang độ K: " + tempe.getKelvin() + "K");
+    </script>
+</body>
+</html>

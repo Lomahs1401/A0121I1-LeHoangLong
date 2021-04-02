@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Công tắc và bóng đèn</title>
+</head>
+<body>
+    <script>
+        let Battery = function (energy) {
+            this.energy = energy;
+            this.getEnergy = function () {
+                return this.energy;
+            };
+            this.setEnergy = function (energy) {
+                this.energy = energy;
+            };
+            this.decreaseEnergy = function () {
+                if (this.energy > 0) {
+                    this.energy--;
+                } else {
+                    alert("Pin đã cạn. Làm ơn thay pin mới!");
+                }
+            };
+        };
+        let FlashLamp = function (status) {
+            this.status = status;
+            this.battery = new Battery (100);
+            this.getBattery = function () {
+                return this.battery;
+            };
+            this.setBattery = function (battery) {
+                return this.battery = battery;
+            };
+            this.light = function () {
+                if (this.status) {
+                    this.battery.decreaseEnergy();
+                } else {
+                    alert('Làm ơn bật đèn');
+                }
+            };
+            this.turnOn = function () {
+                if(this.battery.getEnergy() > 0) {
+                    this.status = true;
+                }
+            };
+            this.turnOf = function () {
+                this.status = false;
+            }
+        };
+        let flashLamp = new FlashLamp(true);
+        if (flashLamp.status) {
+            alert("Đèn đang bật");
+        } else {
+            alert("Đèn đang tắt");
+        }
+        for (let i = 0; i < 10; i++) {
+            flashLamp.light();
+        }
+        alert("Pin hiện tại: " + flashLamp.getBattery().getEnergy());
+    </script>
+</body>
+</html>

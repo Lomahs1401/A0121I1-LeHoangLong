@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam & Eva</title>
+</head>
+<body>
+    <script>
+        let Apple = function () {
+            this.weight = 10;
+            this.decrease = function () {
+                this.weight--;
+            };
+            this.isEmpty = function () {
+                if (this.weight <= 0) {
+                    alert("Mời Adam ăn trộm thêm.");
+                    return true;
+                } else {
+                    return false;
+                }
+            };
+            this.getWeight = function () {
+                return this.weight;
+            };
+            this.setWeight = function (weight) {
+                this.weight = weight;
+            }
+        };
+        let Human = function (name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+            this.getName = function () {
+                return this.name;
+            };
+            this.setName = function (name) {
+                this.name = name;
+            };
+            this.getWeight = function () {
+                return this.weight;
+            };
+            this.setWeight = function (weight) {
+                this.weight = weight
+            };
+            this.checkApple = function (apple) {
+                return apple.isEmpty();
+            };
+            this.eatApple = function (apple) {
+                if (!this.checkApple(apple)) {
+                    this.weight++;
+                    apple.decrease();
+                }
+            }
+        };
+        let apple = new Apple();
+        let adam = new Human("Adam", "male", 70);
+        let eva = new Human("Eva", "female", 50);
+        let isAdamEat = true;
+        for (let i = apple.weight; i > 0; i--) {
+            if (isAdamEat) {
+                adam.eatApple(apple);
+                isAdamEat = false;
+            } else {
+                eva.eatApple(apple);
+                isAdamEat = true;
+            }
+        }
+        alert("Khối lượng của Adam " + adam.getWeight());
+        alert("Khối lượng của Eva " + eva.getWeight());
+    </script>
+</body>
+</html>

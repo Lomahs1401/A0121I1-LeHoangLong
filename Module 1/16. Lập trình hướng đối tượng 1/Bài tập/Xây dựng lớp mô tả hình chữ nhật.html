@@ -10,26 +10,26 @@
         let Rectangle = function(x, y) { //x là chiều dài, y là chiều rộng
             this.x = x;
             this.y = y;
-            this.getPerimeter = function () {
-                return (x + y) * 2;
+            this.getPerimeter = function() {
+                return (this.x + this.y) * 2;
             };
-            this.getArea = function () {
-                return x * y;
+            this.getArea = function() {
+                return (this.x * this.y);
             };
-            this.getShow = function createRectangle() { //vẽ hình chữ nhật
-                var rectangle = new Rectangle(parseFloat(prompt('Nhập x: ')), parseFloat(prompt('Nhập y: ')));
-                var c = document.getElementById("myCanvas");
-                var ctx = c.getContext("2d");
-                ctx.beginPath();
-                ctx.rect(50, 50, rectangle.x, rectangle.y);
-                ctx.strokeStyle = "blue";
-                ctx.stroke();
-            }
         };
-        let rect1 = Rectangle(900, 500);
+        function createRectangle() { //vẽ hình chữ nhật
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var rectangle = new Rectangle(400, 200);
+            ctx.beginPath();
+            ctx.rect(50, 50, rectangle.x, rectangle.y);
+            ctx.fillStyle = "blue";
+            ctx.fill();
+        }
+        let rect1 = new Rectangle(900, 500);
         alert(rect1.getPerimeter());
         alert(rect1.getArea());
-        alert(rect1.getShow());
+        createRectangle();
     </script>
 </body>
 </html>
