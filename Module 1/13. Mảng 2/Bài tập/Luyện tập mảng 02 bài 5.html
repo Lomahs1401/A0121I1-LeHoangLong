@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 02 bài 5</title>
+</head>
+<body>
+    <script>
+        let a = [];
+        let b = [];
+        let check = true;
+        let number1 = parseInt(prompt("Nhập số phần tử của mảng a: "));
+        let  number2 = parseInt(prompt("Nhập số phần từ của mảng b: "));
+        for (let i = 0; i < number1; i++) {
+            a.push(prompt("Nhập 1 phần tử cho mảng a: "));
+        }
+        for (let i = 0; i < number2; i++) {
+            b.push(prompt("Nhập 1 phần tử cho mảng b: "));
+        }
+        if (number1 !== number2) {
+            alert("Hai chuỗi không giống nhau");
+        } else {
+            for (let i = 0; i < number1; i++) {
+                if(a[i] !== b[i]) {
+                    check = false;
+                }
+            }
+        }
+        if (check) {
+            alert("Hai chuỗi giống nhau");
+        } else {
+            alert("Hai chuỗi không giống nhau");
+        }
+        console.log(a);
+        console.log(b);
+    </script>
+</body>
+</html>

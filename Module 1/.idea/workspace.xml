@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04236fdc-28d3-4dd2-9176-b7afadc97e53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Mảng 1/Bài tập/Luyện tập mảng 01 bài 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/Bài tập/Luyện tập mảng 02 bài 6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/Bài tập/Vòng lặp 02 bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/Bài tập/Vòng lặp 02 bài 3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,9 +43,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Hoang Long/Hoc lap trinh HTML/Chèn hình ảnh, audio, video và website.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,6 +60,7 @@
       <updated>1611928042722</updated>
       <workItem from="1611928045689" duration="24000" />
       <workItem from="1612176976028" duration="793000" />
+      <workItem from="1617624212933" duration="6839000" />
     </task>
     <servers />
   </component>
@@ -43,6 +68,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="508" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617627857601">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1617627857601" />
     <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1612177028248">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

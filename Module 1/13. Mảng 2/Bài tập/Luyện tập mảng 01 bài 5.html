@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 01 bài 5</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let count = 0;
+        let number = parseInt(prompt("Nhập số ký tự bạn muốn nhập: "));
+        for (let i = 0; i < number; i++) {
+            arr.push(prompt("Nhập 1 ký tự"));
+        }
+        for (let i = 0; i < number; i++) {
+            if (arr[i] < 0) {
+                count++;
+            }
+        }
+        alert("Chuỗi có " + count + " số nguyên âm");
+    </script>
+</body>
+</html>

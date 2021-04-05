@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 02 bài 4</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let count = 0;
+        let number = parseInt(prompt("Nhập số ký tự bạn muốn nhập: "));
+        for (let i = 0; i < number; i++) {
+            arr.push(prompt("Nhập ký tự"));
+        }
+        for (let i = 0; i < number; i++) {
+            if (isNaN(arr[i])) {
+                count++;
+            }
+        }
+        alert("Trong mảng có " + count + " ký tự chữ.");
+    </script>
+</body>
+</html>

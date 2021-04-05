@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 01 bài 9</title>
+</head>
+<body>
+    <script>
+        let a = [];
+        let b = [];
+        for (let i = 0; i < 9; i++) {
+            a.push(parseInt(prompt("Nhập 1 số nguyên cho mảng a: ")));
+        }
+        for (let i = 0; i < 9; i++) {
+            b.push(parseInt(prompt("Nhập 1 số nguyên cho mảng b: ")));
+        }
+        let c = [];
+        c = a.concat(b);
+        alert(c);
+    </script>
+</body>
+</html>

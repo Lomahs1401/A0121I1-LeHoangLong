@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 02 bài 2</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let arrReverse = [];
+        let number = parseInt(prompt("Nhập số ký tự bạn muốn nhập vào mảng"));
+        for (let i = 0; i < number; i++) {
+            arr.push(prompt("Nhập 1 ký tự"));
+        }
+        let temp;
+        for (let i = number-1; i >= 0; i--) {
+            arrReverse.push(arr[i]);
+        }
+        alert(arr);
+        alert(arrReverse.join());
+    </script>
+</body>
+</html>

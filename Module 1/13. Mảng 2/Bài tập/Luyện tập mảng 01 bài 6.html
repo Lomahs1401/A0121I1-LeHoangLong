@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 01 bài 6</title>
+</head>
+<body>
+    <script>
+        let check = false;
+        let arr = [];
+        for (let i = 0; i < 9; i++) {
+            arr.push(parseInt(prompt("Nhập 1 số nguyên: ")));
+        }
+        let v = parseInt(prompt("Hãy nhập thử 1 số nguyên: "));
+        for (let i = 0; i < 9; i++) {
+            if (arr[i] === v) {
+                check = true;
+            }
+        }
+        if (check) {
+            alert(v + " có trong mảng.");
+        } else {
+            alert(v + " không có trong mảng.")
+        }
+    </script>
+</body>
+</html>

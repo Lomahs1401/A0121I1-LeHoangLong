@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 01 bài 7</title>
+</head>
+<body>
+    <script>
+        let check = false;
+        let arr = [];
+        let index = 0;
+        for (let i = 0; i < 9; i++) {
+            arr.push(parseInt(prompt("Nhập 1 số nguyên: ")));
+        }
+        let v = parseInt(prompt("Hãy nhập thử 1 số nguyên: "));
+        for (let i = 0; i < 9; i++) {
+            if (arr[i] === v) {
+                check = true;
+                index = i;
+            }
+        }
+        if(check) {
+            arr.splice(index, 1);
+            arr[7] = 0;
+        }
+        console.log(arr);
+    </script>
+</body>
+</html>
