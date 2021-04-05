@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu cầu số 1</title>
+</head>
+<body>
+    <script>
+        let name;
+        let cmnd;
+        let birthday;
+        let email;
+        let address;
+        let typeService; //Villa, House, Room
+        let typeRoom;
+        let typeCustomer; //Diamond, Platinum. Gold. Silver, Member
+        let discount;
+        let quantityIncluded;
+        let rentDays;
+        let totalPays;
+        let moneyService;
+        name = prompt("Enter the name: ");
+        cmnd = prompt("Enter cmnd: ");
+        birthday = prompt("Enter birthday: ");
+        email = prompt("Enter email: ");
+        address = prompt("Enter address: ");
+        typeService = prompt("Enter type service: "+"\n1.Villa 500$/day"+"\n2.House 300$/day"+"\n3.Room 100$/day");
+        typeRoom = prompt("Enter type room: ");
+        typeCustomer = prompt("Enter type customer: "+"\n1.Diamond"+"\n2.Platinium"+"\n3.Gold"+"\n4.Silver"+"\n5.Member");
+        discount = prompt("Enter discount");
+        quantityIncluded = prompt("Enter quantityIncluded: ");
+        rentDays = prompt("Enter rent days: ");
+        alert("Bạn đã nhập thành công.");
+        if (typeService === "Villa") {
+            moneyService = 500; //500$
+        } else if (typeService === "House") {
+            moneyService = 300; //300$
+        } else if (typeService === "Room") {
+            moneyService = 100; //100$
+        }
+        totalPays = moneyService*parseFloat(rentDays)*(1-parseFloat(discount)/100);
+        alert("Tổng số tiền bạn phải trả là " + totalPays + "$");
+    </script>
+</body>
+</html>

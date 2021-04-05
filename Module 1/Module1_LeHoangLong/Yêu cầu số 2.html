@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu cầu số 2</title>
+</head>
+<body>
+    <script>
+        let name;
+        let cmnd;
+        let birthday;
+        let email;
+        let address;
+        let typeService; //Villa, House, Room
+        let typeRoom;
+        let typeCustomer; //Diamond, Platinum. Gold. Silver, Member
+        let discount;
+        let quantityIncluded;
+        let rentDays;
+        let totalPays;
+        let moneyService;
+        name = prompt("Enter the name: ");
+        cmnd = prompt("Enter cmnd: ");
+        birthday = prompt("Enter birthday: ");
+        email = prompt("Enter email: ");
+        address = prompt("Enter address: ");
+        typeService = prompt("Enter type service: "+"\n1.Villa 500$/day"+"\n2.House 300$/day"+"\n3.Room 100$/day");
+        typeRoom = prompt("Enter type room: ");
+        typeCustomer = prompt("Enter type customer: "+"\n1.Diamond"+"\n2.Platinium"+"\n3.Gold"+"\n4.Silver"+"\n5.Member");
+        quantityIncluded = prompt("Enter quantityIncluded: ");
+        rentDays = prompt("Enter rent days: ");
+        alert("Bạn đã nhập thành công.");
+        if (typeService === "Villa") {
+            moneyService = 500; //500$
+        } else if (typeService === "House") {
+            moneyService = 300; //300$
+        } else if (typeService === "Room") {
+            moneyService = 100; //100$
+        }
+        let flag = true;
+        do {
+            let choose = parseFloat(prompt("1. Hiển thị toàn bộ thông tin của khách hàng" + "\n2. Chỉnh sửa thông tin khách hàng"
+                + "\n3. Hiển thị số tiền được giảm giá và tổng số tiền phải trả của khách hàng"
+                + "\n4.Thoát" + "\nBạn muốn chọn?"));
+            switch (choose) {
+                case 1: {
+                    alert("1.Tên: " + name + "\n" + "2.CMND: " + cmnd + "\n3.Ngày sinh: " + birthday + "\n4.Email: " + email
+                        + "\n5.Địa chỉ: " + address + "\n6.Loại dịch vụ: " + typeService + "\n7.Loại phòng: "
+                        + typeRoom + "\n8.Loại khách hàng: " + typeCustomer + "\n9.Số lượng đi kèm: "
+                        + quantityIncluded + "\n10.Ngày thuê: " + rentDays);
+                    break;
+                }
+                case 2: {
+                    let chooseEdit = parseFloat(prompt("1. Tên: " + name + "\n" + "2. CMND: " + cmnd + "\n3.Ngày sinh: "
+                        + birthday + "\n4.Email: " + email + "\n5.Địa chỉ: " + address + "\n6.Loại dịch vụ: "
+                        + typeService + "\n7.Loại phòng: " + typeRoom + "\n8.Loại khách hàng: "
+                        + typeCustomer + "\n9.Số lượng đi kèm: " + quantityIncluded + "\n10.Ngày thuê: "
+                        + rentDays + "\nHãy nhập số tương ứng với thông tin bạn muốn thay đổi: "));
+                    let check = false;
+                    do {
+                        switch (chooseEdit) {
+                            case 1: {
+                                name = prompt("Enter new name:");
+                                break;
+                            }
+                            case 2: {
+                                cmnd = prompt("Enter new cmnd:");
+                                break;
+                            }
+                            case 3: {
+                                birthday = prompt("Enter new birthday:");
+                                break;
+                            }
+                            case 4: {
+                                email = prompt("Enter new email");
+                                break;
+                            }
+                            case 5: {
+                                address = prompt("Enter new address");
+                                break;
+                            }
+                            case 6: {
+                                typeService = prompt("Enter new type service");
+                                break;
+                            }
+                            case 7: {
+                                typeRoom = prompt("Enter new type room");
+                                break;
+                            }
+                            case 8: {
+                                typeCustomer = prompt("Enter new type service");
+                                break;
+                            }
+                            case 9: {
+                                quantityIncluded = prompt("Enter new quantityIncluded");
+                                break;
+                            }
+                            case 10: {
+                                rentDays = prompt("Enter new rent days");
+                                break;
+                            }
+                            default: {
+                                alert("Bạn nhập không đúng. Mời bạn nhập lại");
+                                check = true;
+                            }
+                        }
+                    } while (check);
+                    alert("Bạn đã thay đổi thông tin thành công.");
+                    break;
+                }
+                case 3: {
+                    let place;
+                    let discountPlace;
+                    let discountRentDays;
+                    let discountCustomer;
+                    place = prompt("Bạn đến từ");
+                    if (place === "Đà Nẵng") {
+                        discountPlace = 20; //giảm 20$
+                    } else if (place === "Huế") {
+                        discountPlace = 10; //giảm 10$
+                    } else if (place === "Quảng Nam") {
+                        discountPlace = 5; //giảm 5$
+                    } else discountPlace = 0;
+
+                    if (rentDays > 7) {
+                        discountRentDays = 30; //giảm 30$
+                    } else if (rentDays >= 5 && rentDays <= 7) {
+                        discountRentDays = 20; //giảm 20$
+                    } else if (rentDays >= 2 && rentDays <= 4) {
+                        discountRentDays = 10; //giảm 10$
+                    } else discountRentDays = 0;
+
+                    if (typeCustomer === "Diamond") {
+                        discountCustomer = 15; //giảm 15$
+                    } else if (typeCustomer === "Platinium") {
+                        discountCustomer = 10; //giảm 10$
+                    } else if (typeCustomer === "Gold") {
+                        discountCustomer = 5; //giảm 5$
+                    } else if (typeCustomer === "Silver") {
+                        discountCustomer = 2; //giảm 2$
+                    } else if (typeCustomer === "Member") {
+                        discountCustomer = 0;
+                    }
+
+                    discount = discountPlace + discountRentDays + discountCustomer;
+                    alert("Số tiền bạn được giảm: " + discount + "$");
+                    totalPays = moneyService * parseFloat(rentDays) - discount;
+                    alert("Tổng số tiền bạn phải trả: " + totalPays + "$");
+                    break;
+                }
+                case 4: {
+                    flag = false;
+                    break;
+                }
+                default: {
+                    flag = false;
+                    alert("Failed");
+                }
+            }
+        } while(flag);
+    </script>
+</body>
+</html>
